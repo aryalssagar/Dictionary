@@ -1,0 +1,78 @@
+* {
+    background-color: rgb(176, 108, 241);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.one {
+    height: auto;
+    width: 90%;
+    max-width: 400px;
+    background-color: white;
+    position: relative;
+    left: 50%;
+    top: 36%;
+    transform: translateX(-50%);
+    box-shadow: rgb(62, 56, 56) 6px 10px 11px 1px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+input {
+    margin-top: 15px;
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    margin-left: 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid #ccc;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(176, 108, 241);
+    border: 0;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+p {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    font-style: italic;
+    font-weight: 500;
+    
+}
+h2{
+    background-color: white;
+    padding-left: 33%;
+
+}
+/* Media Queries for responsive design */
+@media (min-width: 600px) {
+    .one {
+        width: 70%;
+    }
+}
+
+@media (min-width: 768px) {
+    .one {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .one {
+        width: 30%;
+    }
+}
